@@ -1,5 +1,7 @@
 require "por_flatten/version"
 
+# The PorFlatten Module contains the bulk of the functionality to prevent the global
+# classes and namespaces from being poluted.
 module PorFlatten
   class DataTypeError < StandardError; end
 
@@ -82,6 +84,7 @@ module PorFlatten
   end
 end
 
+# This is the standard Ruby Array class
 class Array
   # We add the +por_flatten+ method to Array instances for ease of use
   def por_flatten(integers_only: true)

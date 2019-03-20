@@ -1,5 +1,7 @@
 # PorFlatten
 
+[![Gem Version](https://badge.fury.io/rb/por_flatten.svg)](https://badge.fury.io/rb/por_flatten) [![Build Status](https://travis-ci.org/zeiv/por_flatten.svg?branch=master)](https://travis-ci.org/zeiv/por_flatten) [![Test Coverage](https://api.codeclimate.com/v1/badges/1b7dbc55ef7b9827f3c8/test_coverage)](https://codeclimate.com/github/zeiv/por_flatten/test_coverage) [![Maintainability](https://api.codeclimate.com/v1/badges/1b7dbc55ef7b9827f3c8/maintainability)](https://codeclimate.com/github/zeiv/por_flatten/maintainability) [![Inline docs](http://inch-ci.org/github/zeiv/por_flatten.svg?branch=master)](http://inch-ci.org/github/zeiv/por_flatten)
+
 This gem adds a Plain-Old-Ruby implementation of an array flattening method as `Array#por_flatten`.  Why?  Because `Array#flatten` is implemented in C.
 Disclaimer: Methods used by this gem may be implemented in C.
 

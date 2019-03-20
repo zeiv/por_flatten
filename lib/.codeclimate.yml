@@ -1,0 +1,7 @@
+checks:
+  method-complexity:
+    config:
+      threshold: 15
+  method-lines:
+    config:
+      threshold: 30
